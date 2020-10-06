@@ -1,0 +1,10 @@
+<button (click)="nuevoProspecto()" class="btn btn-primary mb-2">Nuevo Prospecto</button>
+<ag-grid-angular
+    #agGrid
+    style="width: 100%; height: 500px;"
+    class="ag-theme-alpine"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    rowSelection="multiple"
+>
+</ag-grid-angular>
